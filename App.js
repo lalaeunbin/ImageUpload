@@ -2,10 +2,12 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
 import Home from './screens/Home'
+import LoadUid from './teseter/LoadUid'
+import ItemLoad from './teseter/ItemLoad'
 
 export default function App() {
   return (
-    <Home/>
+    <ItemLoad/>
   );
 }
 
